@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Songs - Rhythm Rewind</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div>Rhythm Rewind</div>
+        <div>
+            <a href="index.html">Home</a>
+            <span id="userDisplay"></span>
+            <button onclick="logout()">Switch User</button>
+        </div>
+    </div>
+    <h1>Match Songs to Your Journal Entries</h1>
+    <div class="container">
+        <div class="entries">
+            <h2>Journal Entries</h2>
+            <div id="entries-list"></div>
+        </div>
+        <div class="songs">
+            <h2>Songs</h2>
+            <div id="songs-list"></div>
+        </div>
+    </div>
+    <div class="reset-container">
+        <button onclick="resetGame()">Restart Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

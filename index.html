@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythm Rewind</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div>Rhythm Rewind</div>
+        <div>
+            <a href="index.html">Home</a>
+            <span id="userDisplay"></span>
+            <button onclick="logout()">Switch User</button>
+        </div>
+    </div>
+    <div class="hero">Rhythm Rewind</div>
+    <div class="cta">
+        <button onclick="startJournaling()">Start Journaling</button>
+    </div>
+    <div class="features">
+        <div class="feature-card" onclick="window.location.href='past_entries.html'">View Past Entries</div>
+        <div class="feature-card" onclick="window.location.href='match_songs.html'">Match Songs</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

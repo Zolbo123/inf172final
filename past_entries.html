@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Journal Entries</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div>Rhythm Rewind</div>
+        <div>
+            <a href="index.html">Home</a>
+            <span id="userDisplay"></span>
+            <button onclick="logout()">Switch User</button>
+        </div>
+    </div>
+
+    <h2>Past Journal Entries</h2>
+
+    <div class="selection-container">
+        <button class="year-button" onclick="showMonths(2025)">2025</button>
+    </div>
+
+    <div id="months-container" class="hidden selection-container">
+        <h3>Select a Month</h3>
+        <div id="months"></div>
+    </div>
+
+    <div id="days-container" class="hidden selection-container">
+        <h3>Select a Day</h3>
+        <div id="days"></div>
+    </div>
+
+    <div id="entries-container" class="hidden">
+        <h3>Journal Entries</h3>
+        <div id="entryList"></div>
+    
+        <div id="entryForm" class="hidden">
+            <h3>Add a Journal Entry</h3>
+            <input type="text" id="title" placeholder="Entry Title">
+            <textarea id="content" placeholder="Write your journal entry here..."></textarea>
+            <input type="text" id="song" placeholder="Song (Optional)">
+            <button onclick="addEntry()">Save Entry</button>
+        </div>
+    </div>
+</body>
+</html>

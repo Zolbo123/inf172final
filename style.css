@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     background-color: #f8e7eb;
@@ -7,6 +8,8 @@ body {
 }
 
 .header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px; 
     display: flex;
     justify-content: space-between;
     padding: 15px 50px;
@@ -26,7 +29,8 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
     border-radius: 5px;
 }
 
@@ -41,7 +45,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -214,3 +218,93 @@ button:hover {
     text-align: center;
     margin-top: 20px;
 }
+
+.about-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+}
+.about-text-container {
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+    background-color: #ff99a1;
+}
+
+.about-image {
+    width: 128px;
+    height: 128px;
+    background-color: #ff99a1;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.about-title-dark {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.about-title-light {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #333366;
+    margin-top: 1.5em;
+}
+
+.about-text-dark {
+    text-align: center;
+    background-color: #f8e7eb;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.about-text-light {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-width: medium;
+    border-color: #1a1a3c;
+}
+
+/* .research-text-dark {
+    text-align: center;
+    background-color: #f8e7eb;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.research-text-light {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-width: medium;
+    border-color: #1a1a3c;
+}
+
+.research-image {
+    width: 440px;
+    height: 260px;
+    box-shadow: -20px -20px #64d1b7;
+    margin-bottom: 20px;
+}
+
+.research-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+} */

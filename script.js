@@ -12,7 +12,7 @@ function login() {
     let username = document.getElementById("username").value.trim();
     if (username) {
         localStorage.setItem("currentUser", username);
-        window.location.href = "index.html";
+        window.location.href = "about.html";
     } else {
         alert("Please enter a username.");
     }

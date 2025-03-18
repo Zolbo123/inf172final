@@ -227,10 +227,10 @@ button:hover {
     padding-top: 1em;
     padding-bottom: 2.5em;
 }
-.about-text-container {
+.about-container-dark {
     margin: 0;
     padding-top: 1em;
-    padding-bottom: 2.5em;
+    padding-bottom: 4.75em;
     background-color: #ff99a1;
 }
 
@@ -263,48 +263,58 @@ button:hover {
     border-radius: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 15px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 20x;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 
 .about-text-light {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    border-width: medium;
-    border-color: #1a1a3c;
+    background-color: #f0d9dc;
+    border-radius: 20px;
+    border-width: 5px;
+    padding: 20px;
+    margin-top: 2em;
 }
 
-/* .research-text-dark {
+.research-container-dark {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #ff99a1;
+}
+
+.research-container-light {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #f0d9dc
+}
+
+.research-image {
+    width: 460px;
+    height: 280px;
+    margin-bottom: 20px;
+    border-width: 5px;
+}
+
+.research-text-dark {
     text-align: center;
     background-color: #f8e7eb;
+    padding: 25px;
     border-radius: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 15px;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 .research-text-light {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    border-width: medium;
-    border-color: #1a1a3c;
+    background-color: #ff99a1;
+    color: #333366;
+    padding: 25px;
+    border-radius: 20px;
 }
-
-.research-image {
-    width: 440px;
-    height: 260px;
-    box-shadow: -20px -20px #64d1b7;
-    margin-bottom: 20px;
-}
-
-.research-text {
-    font-size: 20px;
-    margin-bottom: 20px;
-} */
